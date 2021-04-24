@@ -9,6 +9,9 @@ def is_prime(n):
   bool: whether or not n is a prime number
   
   """
+  if type(n) is not int or n <= 1:
+      return False
+  
   i = 2
   flag = True
   while i < n:
