@@ -6,8 +6,8 @@ with open("README.md", "r") as f:
 setup(
     name="primenumberslib-artipengoriya",
     version="0.0.1",
-    author="YOUR NAME",
-    author_email="YOU@EMAIL.COM",
+    author="Arti",
+    author_email="artipengoriya@gmail.com",
     description="A small package to work with prime numbers",
     long_description=long_description,
     long_description_content_type="text/markdown",
