@@ -9,13 +9,11 @@ def is_prime(n):
   bool: whether or not n is a prime number
   
   """
-  
-    i = 2
-    flag = True
-    while i < n:
-        if n%i == 0:
-            flag = False
-            break
-        i += 1
-    return flag
-    
+  i = 2
+  flag = True
+  while i < n:
+      if n%i == 0:
+          flag = False
+          break
+      i += 1
+      return flag
